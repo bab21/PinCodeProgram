@@ -6,12 +6,12 @@ public class PinCode{
 		
 		Scanner s=new Scanner(System.in);
 
-		String regex="^[0-9]{6}$";
+		String regex="^[1-9]{1}[0-9]{2}\\s{0,1}[0-9]{3}$";
 		Pattern p = Pattern.compile(regex); 
 		
 		
-		Matcher m1=p.matcher("85402B");
-		System.out.println("85402B matches (true/false):"+m1.matches());
+		Matcher m1=p.matcher("854 020");
+		System.out.println("854 020 matches (true/false):"+m1.matches());
 		
 		
 		
