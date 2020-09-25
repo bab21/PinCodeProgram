@@ -10,8 +10,8 @@ public class PinCode{
 		Pattern p = Pattern.compile(regex); 
 		
 		
-		Matcher m1=p.matcher("854 020");
-		System.out.println("854 020 matches (true/false):"+m1.matches());
+		Matcher m1=p.matcher("858 020");
+		System.out.println("858 020 matches (true/false):"+m1.matches());
 		
 		
 		
